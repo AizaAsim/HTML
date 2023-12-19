@@ -1,0 +1,28 @@
+thead,tfoot{
+    background-color:#427fef;
+
+}
+table,tr,td{
+    border-collapse:collapse;
+}
+tr{
+    border-top:1px solid #c4dcf3;
+    border-bottom: 1px solid #c4dcf3;
+
+}
+thead,tfoot{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+}
+td,th{
+    padding:20px;
+}
+tbody tr:nth-child(odd) td{
+    background-color: #eef7ff;
+    font-weight: 700px;
+    
+}
+tfoot th :last-child{
+    padding-left:60px;
+}

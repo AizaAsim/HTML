@@ -1,0 +1,20 @@
+p:first-child{
+    color:gray;
+
+}
+/* first-of-type another psuedoclass */
+article p:last-of-type{
+font-weight:130%;
+
+}
+ul li:nth-child(odd){
+    color:orange;
+}
+p::before{
+    content:"...";
+    display:block;
+    
+}
+
+/*3n*/
+/*! important make it prioritizxe the selector property whilsty ignoring others */

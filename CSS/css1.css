@@ -1,0 +1,17 @@
+body{
+    margin:50px;
+background-color:aqua;
+}
+p{
+    color:blue;
+}
+#product p{
+    /* this will select all the paragraphs inside the section products*/
+    color:cadetblue;
+}
+/* if we donot want the paragraphs in the article tag to have the property like this we do #products>p{}
+now it wont color the [paragraphs inside the artiucle tag 
+#products+p{} this will select the paragraph right after the section tag
+#products~p{ } this will select all the paragraphs after the section tag 
+
+*/
