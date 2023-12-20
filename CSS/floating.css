@@ -1,0 +1,26 @@
+.avatar{
+    width:5rem;
+    height:5rem;
+    background-color:blue;
+    float:right;
+    margin-right:0.5rem;
+
+}
+.clear{
+    clear:both;
+
+}
+.tweet{
+    border:1px solid lightgrey;
+    overflow:hidden;
+}
+.tweet::after{
+    content:'';
+    display: block;
+    clear:both ;
+}
+.clearfix::after{
+    content:'';
+    display:block;
+    clear:both;
+}

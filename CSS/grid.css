@@ -1,0 +1,19 @@
+.container{
+    display:grid;
+
+    grid-template:100px auto 100px/100px 30fr 70fr;
+    border:solid lightgray;
+/*justify-items: center;stretch will stretch the elemnt in the whole grid if there is nop height or column*/
+/*align-items: center;individual elements */
+/*justify-content:center;
+align-content: center;  entire grid
+*/height:100vh;
+grid-template-areas:"header header"
+"sidebar main"
+"footer footer"
+}
+.box{
+    width: 5rem;
+    height: 5rem;
+    background-color:aqua;
+}

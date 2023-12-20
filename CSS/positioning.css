@@ -1,0 +1,29 @@
+body{
+margin:10px;
+height:200vh;
+}
+.boxes{
+    border: 3px solid lightgrey;
+    
+
+}
+.box{
+    width: 5rem;
+    height: 5rem;
+}
+.box1{
+    background-color: aqua;
+
+}
+.box2{
+    background-color:blueviolet;
+   /* position:absolute;*/
+   position:fixed;
+    right:0;
+    bottom:0;
+    z-index:999999;
+}
+.box3{
+    background-color: brown;
+    position:relative;
+}
