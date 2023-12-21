@@ -10,10 +10,13 @@ align-content: center;  entire grid
 */height:100vh;
 grid-template-areas:"header header"
 "sidebar main"
-"footer footer"
+".   footer"
 }
 .box{
     width: 5rem;
     height: 5rem;
     background-color:aqua;
+}
+.box-one{
+    grid-area:header;
 }

@@ -1,0 +1,37 @@
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.box:nth-of-type(odd){
+    background-color:aquamarine;
+
+}
+.box{ background-color:blueviolet;
+    padding:1rem;
+}
+@media screen and (min-width:400px) and (max-width:700px){
+.container{
+    flex-direction: row;
+  color:beige;  
+  .box:nth-child(1){
+    padding:4rem;
+  }
+  
+}
+
+}
+ @media screen and (min-width:800px){
+    .container{
+        background-color: pink;
+
+    }
+    .box{
+        padding:5rem;
+    }
+ }
+
+ @media print{
+    body{
+        font-size: 12pts;
+    }
+ }
