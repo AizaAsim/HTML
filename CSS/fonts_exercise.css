@@ -1,0 +1,66 @@
+.container{
+    font-family: 'Open Sans', sans-serif;
+    font-size:62.5%;
+    flex-direction: column;
+    width:1140px;
+    margin:auto;
+    letter-spacing: -1px;
+    height: 850px;
+  padding-left:18px;
+  padding-right:18px;
+
+line-height: 1.5; 
+border: solid 1px black;
+    
+}
+
+.paragraph{
+    font-style:italic;
+    font-size:1rem;
+    margin-right:4px;
+    margin-left:4px;
+    padding-left:12px;
+    padding-right:12px;
+}
+.image{
+    margin-right:4px;
+    margin-left:4px;
+    padding-left:12px;
+    padding-right:12px;
+    width: 4.5fr;
+    height:200px;
+}
+img{
+    object-fit:cover;
+width:100%;
+height:100%;
+
+}
+h1{font-size:2.986rem	;
+   
+    margin-bottom:-1px;
+    margin-top:8px;
+   
+}
+.heading{
+    margin-right:4px;
+    margin-left:4px;
+    padding-left:12px;
+    padding-right:12px;
+    font-weight: bolder;
+
+}
+.list{
+    margin-right:4px;
+    margin-left:4px;
+    padding-left:12px;
+    padding-right:12px;
+}
+h2{
+    font-size:	2.488rem;
+
+
+}
+h3{font-size:2.074rem;
+
+}
