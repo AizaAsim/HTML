@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700,400,300,100');
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,400,300,100');
+.body{
+    margin:0px;
+    padding:0px;
+     font-family: 'Open Sans', sans-serif;
+
+    
+}
+.navbar1{
+    background-color:#F5F5F5;
+height:68px;
+margin-top:0px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); 
+width:100%;
+
+}
+.nav-imgs{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
+
+
+
+}
+.nav-img-div{
+    height:57px;
+    margin-top:0px;
+}
+.nav-imgs img {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3); /* Box shadow around each image */
+ height:100%;
+padding:5px;
+object-fit: cover;
+
+margin-top:0px;
+  }
+  .nav-img-div:first-child img {
+    background-color: white;
+    box-shadow: 0 0  4px rgba(0, 0, 0, 0.3); /* Box shadow around each image */
+
+
+}
+.container-front {
+    background: url('images/main white container.png');
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container-images-div {
+    width: 70%;
+    height: 90%;
+    background-color: white;;
+}
+
+
+.first-image .first-image-main{
+    height:327;
+    width:568px;
+}
+.first-image-main img{
+    width:100%;
+    height:100%;
+    margin-top:20px;
+    position:relative;
+    z-index:1;
+    margin-bottom:-10px;
+}
+.first-image-box{
+    background-color:#DAA31C ;
+    padding:10px;
+    width:548px;
+    margin-top:0px;
+    border-radius:5px;
+    position:absolute;
+    line-height: 1.4rem;
+}
+.first-image-box-p1{
+    color:white;
+    font-weight: 300;
+    width:550px;
+    font-family: Roboto;
+    font-size: 1.3rem;
+    
+}
+
+.first-image-box-p2{
+    color:black;
+    font-weight: 200;
+    width:550px;
+    font-size: 1rem;
+}
+
+.second-image-container{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+
+}
+
+.second-image-main{
+    width:265px;
+    height:120px;
+    margin-top:200px;
+    position:relative;
+    z-index:1;
+margin-bottom:-10px;
+}
+
+.second-image-main img{
+    height:100%;
+    width:100%;
+
+}
+
+.second-image-box{
+    padding:10px;
+   
+    margin-top:0px;
+    border-radius:5px;
+    
+    line-height: 1.4rem;
+}
+#second-img-b1{
+    width:245px;
+    height:50px;
+    background-color: #30A7D7;
+    display:flex;
+    align-items: center;
+    position:absolute;
+}
+
+#second-img-b2{
+    background-color: #FF2A8E;
+    width:245px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    position:absolute;
+}
+.image-container1{
+    display:flex;
+    flex-direction: column;
+    
+
+}
+.image-container2{
+    display:flex;
+    flex-direction: column;
+    gap:90px;
+}
+.second-image-box-p1{
+    color:white;
+    font-weight: 300;
+    width:200px;
+    font-family: Roboto;
+    font-size: 1rem;
+    
+}
+.first-image2-main{
+    height:189px;
+    width:281px;
+
+}
+.first-image2-main img{
+    height:100%;
+    width:100%;
+}
+#container2-1{
+    background-color:#1847D7 ;
+    width:270px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    position:absolute;
+
+}
+
+#container2-2{
+    background-color:#B89355 ;
+    width:270px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    position:absolute;
+
+}
+
+#container2-3{
+    background-color: #DA471B;
+    width:270px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    position:absolute;
+
+}
+.second2-image-box-p1{
+    color:white;
+    font-weight: 300;
+    width:200px;
+    font-family: Roboto;
+    font-size: 1rem;
+    
+}
+.container-images-div{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+justify-content: center;
+}
+
+
+ @media screen and (max-width: 500px) {
+      
+.navbar1{
+margin-left:230px;
+
+}  
+
+.nav-imgs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    
+    
+    } 
+   
+    }
