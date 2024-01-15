@@ -1,0 +1,98 @@
+.body{
+    margin:0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.navbar{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding:20px;
+}
+
+.nav-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:20px;
+}
+.nav-img{
+    height:60px;
+    width:150px;
+}
+.nav-img img{
+    
+    height:100%;
+    width:100%;
+
+}
+.nav-1 div{
+    font-weight: 400;
+    font-size: 1.15rem;;
+
+}
+.nav-2{
+display:flex;
+align-items: center;
+justify-content: center;
+gap:10px;
+}/* Assuming .nav2-search is a container for the search input and talent button */
+
+.nav2-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav2-search img {
+    height: 25px;
+    position: absolute;
+    z-index: 999;
+    margin-left: 20px;;
+  }
+  
+  .nav2-search input {
+    height:40px;
+    width: 400px;
+    border-radius: 100px;
+    border-color: lightgrey;
+    padding:5px;
+   padding-left:50px;
+  }
+
+
+  
+  .nav2-search input::placeholder {
+    font-weight: 400; /* Adjust the font-weight as needed */
+   font-size: 1rem;;
+    color:gray
+  }
+  .talent-btn {
+    border: none;
+    background-color: transparent;
+    border-left: 0.5px solid lightgrey;
+    z-index: 999;
+    position: absolute;
+    right: 5px; /* Adjust this value as needed */
+    color: lightgrey;
+    font-size: 0.9rem;
+  }
+  .sign-up-btn {
+    border:none;
+    height:45px;
+    width:130px;
+    border-radius: 150px;
+    background-color: #14A800;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color:white;
+    font-size: 1.2rem;
+  }
+  .login-btn button{
+border:none;
+  }
