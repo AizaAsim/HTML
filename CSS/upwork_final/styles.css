@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.navbar-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 9999;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  width: 1600px;
+  margin: 0 auto;
+}
+.nav-separator {
+  height: 1px;
+  background-color: rgb(207, 207, 207);
+  width: 100%;
+}
+.nav-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.nav-img {
+  width: 82px;
+  height: 30px;
+}
+.nav-img img {
+  height: 100%;
+  width: 100%;
+}
+.nav-1 div {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.nav-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+} /* Assuming .nav2-search is a container for the search input and talent button */
+
+.nav-search {
+  width: 332.5px;
+  height: 40px;
+  border: 1px solid #e6ece5;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-search > div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-search-input {
+  padding: 0 16px;
+  flex: 1;
+}
+
+.nav-search-input input {
+  padding: 0 4px;
+  border: none;
+}
+
+.nav-search-input input::placeholder {
+  font-size: 16px;
+  color: black;
+}
+
+.nav-search-input-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.nav-search-input-icon img {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-search-button {
+  width: 92px;
+  gap: 10px !important;
+  padding: 0 12px;
+}
+
+.talent-button-img {
+  height: 12px;
+  width: 12px;
+}
+
+.talent-button-img img {
+  height: 100%;
+  width: 100%;
+}
+.vertical-separator {
+  height: 40%;
+  width: 1px;
+  background-color: rgb(185, 185, 185);
+}
+
+.sign-up-btn {
+  border: none;
+  height: 45px;
+  width: 130px;
+  border-radius: 150px;
+  background-color: #14a800;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: white;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  cursor: pointer; /* Slightly opaque color on hover */
+}
+
+.sign-up-btn:hover {
+  background-color: rgba(20, 168, 0, 0.8);
+}
+.login-btn button {
+  border: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  background-color: transparent;
+}
+.navbar-a {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.navbar-a > div {
+  padding: 0 20px;
+}
+
+.img-text-1 {
+  transition: color 0.3s ease;
+}
+.img-text-1:hover {
+  color: #14a800;
+  cursor: pointer;
+}
+
+.navbar-a div:hover {
+  transition: underline color 0.3s ease;
+}
+.navbar-a div:hover {
+  color: #14a800;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.navbar2 {
+  width: 1600px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.section-1-container {
+  width: 1903px;
+  height: 454px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 41px 0px 80px;
+}
+.section1 {
+  width: 1280px;
+  height: 454px;
+  display: flex;
+}
+.section1-a {
+  width: 60%;
+  height: 100%;
+}
+.section1-a-mainheading-container {
+  width: 550px;
+  height: 160px;
+  margin: 0px 0px 12px;
+}
+.section1-a-mainheading {
+  width: 438px;
+  height: 160px;
+  font-size: 80px;
+  color: #14a800;
+  line-height: 65px;
+}
+.section1-a-p {
+  width: 550px;
+  height: 64px;
+  margin: 0px 0px 32px;
+}
+
+.section1-a-p p {
+  width: 554px;
+  height: 56px;
+  font-size: 22px;
+  line-height: 30px;
+  color: #5e6d55;
+  font-weight: 550;
+}
+.section1-b {
+  width: 40%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+.section1-b-imagebox {
+  width: 440px;
+  height: 300px;
+}
+
+.section1-b-imagebox img {
+  height: 100%;
+  width: 100%;
+}
+.section1-a-btn {
+  width: 750px;
+  height: 40px;
+}
+
+.section1-a-btn button {
+  width: 134px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 0px 24px;
+  background-color: #108a00;
+  color: #ffffff;
+  border: none;
+  font-weight: 550;
+}
+.section1-a-sub {
+  width: 750px;
+  height: 24px;
+  margin: 50px 0px 12px;
+}
+
+.section1-a-sub span {
+  width: 80px;
+  height: 18px;
+  font-size: 16px;
+  color: #9aaa97;
+}
+.section1-a-logos {
+  display: flex;
+  align-items: flex-start;
+  height: 40px;
+  width: 750px;
+  gap: 15px;
+}
+.section1-a-logo-div {
+  height: 40px;
+  width: 107px;
+}
+
+.section1-a-logo-div img {
+  height: 100%;
+  width: 100%;
+}
+
+.section2-container {
+  width: 1903px;
+  height: 454px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 41px 0px 80px;
+}
+
+.section2 {
+  width: 1280px;
+  height: 454px;
+  display: flex;
+  gap: 30px;
+}
+
+.section2-a {
+  width: 506px;
+  height: 370px;
+}
+
+.section2-a img {
+  width: 506px;
+  height: 370px;
+  border-radius: 10px;
+}
+.section2-b {
+  width: 734px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section2b-main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: -340px;
+}
+.section2-b-heading {
+  width: 734px;
+  height: 370px;
+  font-size: 40px;
+  margin: 0px 0px 16px;
+}
+.section2-b-sub-div {
+  display: flex;
+  gap: 30px;
+}
+.section2-b-sub-div-icon {
+  height: 24px;
+  width: 24px;
+}
+.section2-b-sub-div-icon img {
+  height: 100%;
+  width: 100%;
+}
+.section2-b-sub-div-content {
+  height: 24px;
+  width: 24px;
+}
+
+.section2-b-sub-div-content h5 {
+  height: 24px;
+  width: 503px;
+  color: black;
+  font-size: 20px;
+}
+
+.section2-b-sub-div-content p {
+  height: 24px;
+  width: 583px;
+  color: black;
+  font-size: 16px;
+}
+.section2-b-btns {
+  display: flex;
+  margin-top: 50px;
+  gap: 15px;
+}
+.section2-b-btns-1 {
+  width: 163px;
+  height: 40px;
+  background-color: #108a00;
+  border: none;
+  font-size: 16px;
+  margin: 0px 0px 16px 0px;
+  padding: 0px 24px;
+  border-radius: 60px;
+  color: #ffffff;
+}
+
+.section2-b-btns-2 {
+  width: 177px;
+  height: 40px;
+  background-color: transparent;
+  color: #108a00;
+  border: 1px solid #108a00;
+  font-size: 16px;
+  margin: 0px 0px 16px 0px;
+  padding: 0px 24px;
+  border-radius: 60px;
+}
